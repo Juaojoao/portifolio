@@ -56,8 +56,6 @@ export const Header = ({ dataHeader, dataHeaderIcons }: HeaderProps) => {
     if (id === selectedNav) return;
     if (id) {
       setSelectedNav(id);
-      console.log(selectedNav);
-
       setMenuMob(false);
     }
   };
