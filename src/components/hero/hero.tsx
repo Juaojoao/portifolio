@@ -15,7 +15,7 @@ export const Hero = () => {
   }, []);
 
   return (
-    <div className="flex max-lg:flex-col max-lg:gap-10 items-center">
+    <div className="flex max-lg:flex-col max-lg:gap-10 items-center justify-center">
       <div className="text-hero flex-1">
         <h1 className="text-6xl font-bold max-lg:text-4xl max-lg:text-center">
           Hi 🤠,
