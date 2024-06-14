@@ -16,15 +16,22 @@ export const Hero = () => {
 
   return (
     <div className="flex max-lg:flex-col max-lg:gap-10 items-center justify-center">
-      <div className="text-hero flex-1">
-        <h1 className="text-6xl font-bold max-lg:text-4xl max-lg:text-center">
-          Hi 🤠,
+      <div className="text-hero flex-1 xl:text-5xl max-sm:text-3xl font-medium text-4xl text-center">
+        <p>
+          Olá 🤠,
           <br />
-          My name is
-          <br />
-          <span className="text-yellow-600">João Vitor</span>
-          <br />i build things for the web
-        </h1>
+          Meu nome é {""}
+          <span className="text-yellow-600 font-bold">João Vitor</span>.
+        </p>
+        <p>
+          Criando{" "}
+          <span className="text-yellow-600 font-bold">experiências</span>
+        </p>
+        <p>
+          digitais que {""}
+          <span className="text-yellow-600 font-bold">inspiram</span> e {""}
+          <span className="text-yellow-600 font-bold">transformam</span>.
+        </p>
       </div>
       <div className="image-hero flex-1">
         <img

@@ -14,9 +14,13 @@ export default {
       },
       height: {
         "card":'480px',
+        "card-lg": '380px',
+        "card-md": '280px'
       },
       width: {
         "card": '370px',
+        "card-lg": '280px',
+        "card-md": '200px'
       }
     },
   },

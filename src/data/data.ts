@@ -11,14 +11,15 @@ export const dataHeader = [
   },
   {
     id: 3,
-    title: "Projetos",
-    path: "#projetos",
-  },
-  {
-    id: 4,
     title: "Tecnologias",
     path: "#tecnologias",
   },
+  {
+    id: 4,
+    title: "Projetos",
+    path: "#projetos",
+  },
+
   {
     id: 5,
     title: "Contato",
@@ -31,13 +32,13 @@ export const dataHeaderIcons = [
     id: 1,
     title: "LinekdIN",
     path: "/assets/linkedin.svg",
-    url: "",
+    url: "https://www.linkedin.com/in/joaovitor-/",
   },
   {
     id: 2,
     title: "GitHub",
     path: "/assets/github.svg",
-    url: "",
+    url: "https://github.com/Juaojoao",
   },
 ];
 

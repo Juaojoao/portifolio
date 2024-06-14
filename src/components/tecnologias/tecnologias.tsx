@@ -36,7 +36,7 @@ export const Tecnologias = () => {
         {tecs.map((tec) => (
           <SwiperSlide key={tec.id}>
             <div className="h-full">
-              <img className="w-96" src={tec.src} alt={tec.alt} />
+              <img className="w-96 mb-2" src={tec.src} alt={tec.alt} />
               <h1 className="text-center text-yellow-600">{tec.alt}</h1>
             </div>
           </SwiperSlide>

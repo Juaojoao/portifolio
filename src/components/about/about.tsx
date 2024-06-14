@@ -1,14 +1,14 @@
 export const About = () => {
   return (
-    <div className="shadow-xl bg-gray-900 h-full w-full p-4 flex justify-center items-center">
+    <div className="shadow-xl bg-gray-900 h-lvh sm:h-svh w-full p-6 sm:p-4 flex justify-center items-center">
       <div className="sobre">
         <div className="flex items-center justify-center gap-2">
           <div className="w-11 h-1 bg-yellow-600"></div>
           <h1 className="text-yellow-600">SOBRE MIM</h1>
           <div className="w-11 h-1 bg-yellow-600"></div>
         </div>
-        <article className="text-white font-light w-3/4 m-auto mt-10">
-          <p className="leading-7 tracking-widest text-sm font-light">
+        <article className="text-white font-light w-3/4 sm:m-auto max-sm:w-full mt-10">
+          <p className="leading-7 tracking-widest max-sm:text-sm text-2xl font-light">
             <span className="text-yellow-600"></span>
             Olá! Meu nome é{" "}
             <span className="text-yellow-600 font-light border-b border-yellow-600">
